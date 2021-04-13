@@ -12,7 +12,7 @@ import {
 
 // 2
 const httpLink = createHttpLink({
-  uri: 'http://localhost:4001'
+  uri: 'http://rocky-lake-87711.herokuapp.com/'
 });
 
 // 3

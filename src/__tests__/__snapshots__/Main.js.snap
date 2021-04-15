@@ -1,0 +1,560 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Component Contact component should be visible when clicking on Contact Link 1`] = `
+<Main>
+  <Contact
+    disp={true}
+    toggle={[Function]}
+  >
+    <div
+      className="darken"
+      style={
+        Object {
+          "height": "100vh",
+          "position": "absolute",
+          "width": "100vw",
+        }
+      }
+    >
+      <div
+        className="contactus"
+      >
+        <Cancelicon
+          toggle={[Function]}
+        >
+          <div
+            className="cancelicon"
+            onClick={[Function]}
+            style={
+              Object {
+                "float": "right",
+              }
+            }
+          >
+            <svg
+              className="bi bi-x-circle-fill"
+              fill="currentColor"
+              height="16"
+              viewBox="0 0 16 16"
+              width="16"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"
+              />
+            </svg>
+          </div>
+        </Cancelicon>
+        <h3
+          style={
+            Object {
+              "color": "#495057",
+              "fontWeight": "bold",
+            }
+          }
+        >
+          Contact
+        </h3>
+        <span
+          style={
+            Object {
+              "color": "#ADB5BD",
+              "fontSize": "12px",
+            }
+          }
+        >
+          Lorem Ipsum is simply dummy text of the printing
+        </span>
+        <br />
+        <br />
+        <Inpele
+          funn={[Function]}
+          label="Name"
+          text="Enter Your name"
+          var=""
+        >
+          <div
+            className="inpele"
+          >
+            <div>
+              Name
+            </div>
+            <input
+              onChange={[Function]}
+              placeholder="Enter Your name"
+            />
+          </div>
+        </Inpele>
+        <Inpele
+          funn={[Function]}
+          label="Email"
+          text="Enter Your email"
+          var=""
+        >
+          <div
+            className="inpele"
+          >
+            <div>
+              Email
+            </div>
+            <input
+              onChange={[Function]}
+              placeholder="Enter Your email"
+            />
+          </div>
+        </Inpele>
+        <Inpele
+          funn={[Function]}
+          label="Message"
+          text="Your message"
+          var=""
+        >
+          <div
+            className="inpele"
+          >
+            <div>
+              Message
+            </div>
+            <input
+              onChange={[Function]}
+              placeholder="Your message"
+            />
+          </div>
+        </Inpele>
+        <button
+          className="submit"
+          onClick={[Function]}
+        >
+          Submit
+        </button>
+        <span
+          className="error"
+        />
+      </div>
+    </div>
+  </Contact>
+  <div>
+    <Nav
+      action={[Function]}
+    >
+      <div
+        className="navv"
+      >
+        <div
+          className="logo"
+        >
+          <img
+            src="logo.png"
+          />
+        </div>
+        <div
+          className="links"
+        >
+          <Link
+            key="0"
+            link="https://www.google.com"
+            text="About"
+          >
+            <a
+              className="link"
+              href="https://www.google.com"
+            >
+              About
+            </a>
+          </Link>
+          <Link
+            key="1"
+            link="https://www.yahoo.com"
+            text="Blog"
+          >
+            <a
+              className="link"
+              href="https://www.yahoo.com"
+            >
+              Blog
+            </a>
+          </Link>
+          <Link
+            key="2"
+            link="https://www.facebook.com"
+            text="Career"
+          >
+            <a
+              className="link"
+              href="https://www.facebook.com"
+            >
+              Career
+            </a>
+          </Link>
+          <Link
+            key="3"
+          >
+            <a
+              className="link"
+            />
+          </Link>
+          <a
+            className="link Contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </div>
+      </div>
+    </Nav>
+    <div
+      className="container-fluid main-container"
+    >
+      <div
+        className="row"
+      >
+        <Left>
+          <div
+            className="col col-md-6 col-xs-12 left"
+          >
+            <Title>
+              <div
+                className="title"
+              >
+                <h2>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </h2>
+                <p />
+                <div
+                  className="icons"
+                >
+                  <GetIcon
+                    imgsrc="Apple.svg"
+                  >
+                    <div
+                      className="geticon"
+                    >
+                      <img
+                        src="Apple.svg"
+                      />
+                    </div>
+                  </GetIcon>
+                  <GetIcon
+                    imgsrc="google-play-badge.png"
+                  >
+                    <div
+                      className="geticon"
+                    >
+                      <img
+                        src="google-play-badge.png"
+                      />
+                    </div>
+                  </GetIcon>
+                </div>
+              </div>
+            </Title>
+          </div>
+        </Left>
+        <Right>
+          <div
+            className="col col-md-6 col-xs-12 right"
+            style={
+              Object {
+                "backgroundImage": "url(img1.png)",
+              }
+            }
+          >
+            <div
+              className="rightslider active"
+              onClick={[Function]}
+            />
+            <div
+              className="leftslider "
+              onClick={[Function]}
+            />
+            <div
+              className="text"
+            >
+              <h5>
+                Type Text
+              </h5>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </p>
+              <div
+                className="dot"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              />
+              <div
+                className="dot"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "opacity": 0.3,
+                  }
+                }
+              />
+            </div>
+            <div
+              className="sicons"
+            >
+              <Socialicon
+                key="0"
+                src="fb.png"
+              >
+                <div
+                  className="sicon"
+                >
+                  <img
+                    src="fb.png"
+                  />
+                </div>
+              </Socialicon>
+              <Socialicon
+                key="1"
+                src="linkedin.png"
+              >
+                <div
+                  className="sicon"
+                >
+                  <img
+                    src="linkedin.png"
+                  />
+                </div>
+              </Socialicon>
+              <Socialicon
+                key="2"
+                src="twitter.png"
+              >
+                <div
+                  className="sicon"
+                >
+                  <img
+                    src="twitter.png"
+                  />
+                </div>
+              </Socialicon>
+            </div>
+          </div>
+        </Right>
+      </div>
+    </div>
+  </div>
+</Main>
+`;
+
+exports[`Main Component Should be closed when clicking on cancelIcon 1`] = `
+<Main>
+  <Contact
+    disp={false}
+    toggle={[Function]}
+  />
+  <div>
+    <Nav
+      action={[Function]}
+    >
+      <div
+        className="navv"
+      >
+        <div
+          className="logo"
+        >
+          <img
+            src="logo.png"
+          />
+        </div>
+        <div
+          className="links"
+        >
+          <Link
+            key="0"
+            link="https://www.google.com"
+            text="About"
+          >
+            <a
+              className="link"
+              href="https://www.google.com"
+            >
+              About
+            </a>
+          </Link>
+          <Link
+            key="1"
+            link="https://www.yahoo.com"
+            text="Blog"
+          >
+            <a
+              className="link"
+              href="https://www.yahoo.com"
+            >
+              Blog
+            </a>
+          </Link>
+          <Link
+            key="2"
+            link="https://www.facebook.com"
+            text="Career"
+          >
+            <a
+              className="link"
+              href="https://www.facebook.com"
+            >
+              Career
+            </a>
+          </Link>
+          <Link
+            key="3"
+          >
+            <a
+              className="link"
+            />
+          </Link>
+          <a
+            className="link Contact"
+            onClick={[Function]}
+          >
+            Contact
+          </a>
+        </div>
+      </div>
+    </Nav>
+    <div
+      className="container-fluid main-container"
+    >
+      <div
+        className="row"
+      >
+        <Left>
+          <div
+            className="col col-md-6 col-xs-12 left"
+          >
+            <Title>
+              <div
+                className="title"
+              >
+                <h2>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </h2>
+                <p />
+                <div
+                  className="icons"
+                >
+                  <GetIcon
+                    imgsrc="Apple.svg"
+                  >
+                    <div
+                      className="geticon"
+                    >
+                      <img
+                        src="Apple.svg"
+                      />
+                    </div>
+                  </GetIcon>
+                  <GetIcon
+                    imgsrc="google-play-badge.png"
+                  >
+                    <div
+                      className="geticon"
+                    >
+                      <img
+                        src="google-play-badge.png"
+                      />
+                    </div>
+                  </GetIcon>
+                </div>
+              </div>
+            </Title>
+          </div>
+        </Left>
+        <Right>
+          <div
+            className="col col-md-6 col-xs-12 right"
+            style={
+              Object {
+                "backgroundImage": "url(img1.png)",
+              }
+            }
+          >
+            <div
+              className="rightslider active"
+              onClick={[Function]}
+            />
+            <div
+              className="leftslider "
+              onClick={[Function]}
+            />
+            <div
+              className="text"
+            >
+              <h5>
+                Type Text
+              </h5>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              </p>
+              <div
+                className="dot"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "opacity": 1,
+                  }
+                }
+              />
+              <div
+                className="dot"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "opacity": 0.3,
+                  }
+                }
+              />
+            </div>
+            <div
+              className="sicons"
+            >
+              <Socialicon
+                key="0"
+                src="fb.png"
+              >
+                <div
+                  className="sicon"
+                >
+                  <img
+                    src="fb.png"
+                  />
+                </div>
+              </Socialicon>
+              <Socialicon
+                key="1"
+                src="linkedin.png"
+              >
+                <div
+                  className="sicon"
+                >
+                  <img
+                    src="linkedin.png"
+                  />
+                </div>
+              </Socialicon>
+              <Socialicon
+                key="2"
+                src="twitter.png"
+              >
+                <div
+                  className="sicon"
+                >
+                  <img
+                    src="twitter.png"
+                  />
+                </div>
+              </Socialicon>
+            </div>
+          </div>
+        </Right>
+      </div>
+    </div>
+  </div>
+</Main>
+`;
